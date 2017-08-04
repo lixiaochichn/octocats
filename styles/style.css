@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+
+}
+.main {
+    width: 100%;
+    display: flex;
+    /*background: black;*/
+    flex-direction: column;
+    align-items: center;
+}
+#octocats {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catcard {
+    margin: 10px;
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid black;*/
+    box-shadow: 0 8px 30px -5px grey;
+    line-height: 40px;
+}
+
+.catimg {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px;
+    outline: none;
+    background: white;
+}
